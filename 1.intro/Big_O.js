@@ -1,7 +1,7 @@
 /*Big o notation to analyse which code is best.
 or
 which implementation can give you best performance.
-this helps to us to see trade offs using one on the other implimentation.
+this helps to us to see trade offs using one on the other implementation.
 it can pin point inefficient points in the system.
 */
 
@@ -41,9 +41,9 @@ console.log(t4-t3)
 //so we came up with counting Operations rather than timing.
 
 // on second example we can see the number of operations rather values are not bound to any loop or any other variable
-//on the other hand first exampple n is bound to a loop that will execute n times. so 
+//on the other hand first example n is bound to a loop that will execute n times. so 
 
-//first example will have Oder of n  i.e O(n) and secound example have O(1) time.
+//first example will have Oder of n  i.e O(n) and second example have O(1) time.
 
 
 /*****************************
@@ -61,10 +61,10 @@ console.log(t4-t3)
  */
 
  /*********************************
-  * Big O for Arrys.
+  * Big O for Arrays.
   * all items are ordered
   * access the item.(random access is possible) - O(1)
-  * insertion and deletion is compled - O(N) (when inserted at the begining.)
+  * insertion and deletion is complicated - O(N) (when inserted at the beginning.)
   * searching O(N)
   * 
   * sorting O(NlogN)
